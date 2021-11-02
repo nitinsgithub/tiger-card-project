@@ -1,0 +1,56 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../signup.jpg);
+    height:80vh;
+    background-size:cover;
+    background-position:center;
+}
+
+.signup-page{
+    width:300px;
+    padding:10% 0 0;
+    margin:auto;
+}
+.form{
+    top:10%;
+    position:relative;
+    z-index:1;
+    background:yellow;
+    max-width:280px;
+    margin:0 auto 100px;
+    padding:40px;
+    text-align:center;
+}
+.form input{
+    font-family:"Roboto",sans-serif;
+    outline:1;
+    background:pink;
+    width:80%;
+    border:0;
+    margin:0 0 10px;
+    padding:10px;
+    box-sizing:border-box;
+    font-size:14px;
+}
+.form button{
+    font-family:"Roboto",sans-serif;
+    text-transform:uppercase;
+    outline:0;
+    background:red;
+    width:100%;
+    border:0;
+    padding:10px;
+    color:black;
+    font-size14px;
+    cursor:pointer;
+}
+p{
+    font-position:left;
+}
+.form button:hoverm.form button:active{
+    background:#43A047;
+}
+.logo img{
+    float:left;
+    width:200px;
+    height:auto;
+}
